@@ -18,4 +18,5 @@ for sym in range(1, nr_symbols + 1):
 for num in range(1, nr_numbers + 1):
     password += random.choice(numbers)
 
+
 print(f"Your Password is : {password}")
